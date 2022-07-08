@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Water+Brush&display=swap');
+
+html{    
+    font-family: 'Righteous';
+    scroll-behavior: smooth;
+    background-image: url("circle-scatter-haikei.svg") ;
+}
+
+body {    
+    margin: 0;
+    padding: 0;    
+}
+
+header {
+    font-size: 5vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+#messages{
+    padding-bottom: 30%;
+}
+
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color: #cd383d;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+}
+
+li span {
+    font-weight: bolder;
+    color: #b5b0b9;
+}
+
+#chat {
+    width: 80%;
+    margin: auto;
+}
+
+#message-form {
+    
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:transparent;
+}
+
+input {
+    font-family: 'Righteous';
+    border-radius: 25px;
+    width: 70%;
+    height: 30px;
+}
+
+button {
+    font-family: 'Righteous';
+    background-color: #cd383d;
+    border-radius: 25px;
+    width: 25%;
+    height: 38px;
+}
+
+.sent {
+    text-align: right;
+    background-color: #a79cb3;
+    margin-left: 50%;
+}
+
+.sent span {
+    margin-left: 5px;
+    color: #6929ca;
+}
