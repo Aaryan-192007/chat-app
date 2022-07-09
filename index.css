@@ -69,11 +69,11 @@ button {
 
 .sent {
     text-align: right;
-    background-color: #a79cb3;
+    background-color: #d34b50;
     margin-left: 50%;
 }
 
 .sent span {
     margin-left: 5px;
-    color: #6929ca;
+    color: #000000;
 }
